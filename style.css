@@ -1,0 +1,62 @@
+header{
+    height: 60vh; /* tamaño del header*/
+    background-image: url(img/Mask\ Group\ 134.png);
+    background-size: cover; /* tamaño del fondo del header*/
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 16vh;
+    height: 5vh;
+}
+.lista{
+    float: right;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+nav > a:hover{
+    color: tomato;
+    border-bottom: 5px solid tomato;
+}
+
+button.btn-up{
+    color: white;
+    border-color: rgb(75, 75, 255);
+    border-radius: 5px;
+    background-color: transparent ;
+}
+button.btn-in{
+    color: white;
+    border-color: rgb(75, 75, 255);
+    background-color: rgb(102, 102, 255);
+    border-radius: 5px;
+}
+button:hover{
+   background-color: tomato;
+}
+
+.titlehead{
+width: 140vh;
+padding-top: 140px;
+padding-left: 95vh;
+color: white;
+text-align: justify;
+}
+
+.texthead{
+   border-bottom: 5px solid tomato;
+   border-radius: 5px;
+}
+
+.subtext{
+    font-size: 12px;
+}
+
+.titulo{
+    color: rgb(0, 0, 151);
+    padding-top: 30px;
+    padding-left: 60vh;
+}
