@@ -29,10 +29,13 @@ button.btn-up{
     background-color: transparent ;
 }
 button.btn-in{
-    color: white;
     border-color: rgb(59, 120, 253);
     background-color: rgb(59, 120, 253);
     border-radius: 5px;
+}
+button > a {
+    color: white;
+    text-decoration: none;
 }
 button:hover{
    background-color: tomato;
@@ -60,6 +63,9 @@ text-align: justify;
     padding-top: 30px;
     padding-left: 60vh;
 }
+.boxes{
+    float: right;
+}
 
 .box-info{
     background-color:rgb(59, 120, 253);
@@ -76,15 +82,58 @@ text-align: justify;
     height: 15vh; */
 }
 .t-box{
-    padding-top: 8px;
+    padding-top: 12px;
     color: white;
     font-size: 18px;
     border-bottom: 3px solid grey;
-    border-radius: 5px; 
+    
 }
 .content{
     color: white;
     font-size: 14px;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+/* Login */
+.d-form{
+    width: 700px;
+    padding-top: 150px;
+    padding-left: 60vh;
+    text-align: center;
+}
+.t-log{
+    color: white;
+    border-bottom: 5px solid tomato;
+    border-radius: 5px;
+}
+.f-log{
+    color: white;
+  
+}
+label{
+    color: white;
+    font-size: 26px;
+}
+input{
+    border-color: tomato;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.send{
+
+    color: white;
+    border-color: rgb(59, 120, 253);
+    background-color: rgb(59, 120, 253);
+    border-radius: 5px;
+}
+
+.send:hover{
+    background-color: tomato;
+
+}
+
+.no-log{
+    color: tomato;
 }
