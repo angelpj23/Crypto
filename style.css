@@ -24,14 +24,14 @@ nav > a:hover{
 
 button.btn-up{
     color: white;
-    border-color: rgb(75, 75, 255);
+    border-color: rgb(59, 120, 253);
     border-radius: 5px;
     background-color: transparent ;
 }
 button.btn-in{
     color: white;
-    border-color: rgb(75, 75, 255);
-    background-color: rgb(102, 102, 255);
+    border-color: rgb(59, 120, 253);
+    background-color: rgb(59, 120, 253);
     border-radius: 5px;
 }
 button:hover{
@@ -59,4 +59,32 @@ text-align: justify;
     color: rgb(0, 0, 151);
     padding-top: 30px;
     padding-left: 60vh;
+}
+
+.box-info{
+    background-color:rgb(59, 120, 253);
+    box-shadow: 0 0 18px rgb(0, 0, 0);
+    width: 45vh;
+    height: 18vh;
+    border-radius: 10px;
+    display: flex; /* Imagen y descripcion dentro del div */
+
+}
+.img-box{
+    background-color: rgb(2, 2, 202);
+    /* width: 30vh;
+    height: 15vh; */
+}
+.t-box{
+    padding-top: 8px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 3px solid grey;
+    border-radius: 5px; 
+}
+.content{
+    color: white;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
