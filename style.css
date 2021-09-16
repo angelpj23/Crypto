@@ -64,7 +64,7 @@ text-align: justify;
     padding-left: 60vh;
 }
 .boxes{
-    float: right;
+    display: flex; /*cajas al lado de la otra*/
 }
 
 .box-info{
@@ -94,6 +94,44 @@ text-align: justify;
     padding-left: 8px;
     padding-right: 8px;
 }
+footer{
+    background: black;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
 
 /* Login */
 .d-form{
