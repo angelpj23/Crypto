@@ -4,12 +4,21 @@ header{
     background-size: cover; /* tamaño del fondo del header*/
     background-repeat: no-repeat;
 }
+
+.cinta{
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
 .logo{
-    width: 16vh;
+    width: 28vh;
     height: 5vh;
+    padding-left: 50px;
 }
 .lista{
     float: right;
+    padding-right: 50px;
 }
 nav > a{
     color: white;
