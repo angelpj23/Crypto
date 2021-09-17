@@ -63,8 +63,12 @@ text-align: justify;
     padding-top: 30px;
     padding-left: 60vh;
 }
+
 .boxes{
-    display: flex; /*cajas al lado de la otra*/
+    display: flex; /*cajas al lado de la otra*/    
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .box-info{
@@ -78,6 +82,7 @@ text-align: justify;
 }
 .img-box{
     background-color: rgb(2, 2, 202);
+    border-radius: 10px;
     /* width: 30vh;
     height: 15vh; */
 }
