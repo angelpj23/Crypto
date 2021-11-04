@@ -73,11 +73,19 @@ text-align: justify;
     padding-left: 60vh;
 }
 
+
 .boxes{
-    display: flex; /*cajas al lado de la otra*/    
+    display: flex;    /*cajas al lado de la otra*/    
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 
+
+}
+
+.card-2{
+    padding-left: 200px;
 }
 
 .box-info{
@@ -87,6 +95,7 @@ text-align: justify;
     height: 18vh;
     border-radius: 10px;
     display: flex; /* Imagen y descripcion dentro del div */
+
 
 }
 .img-box{
