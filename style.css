@@ -56,6 +56,7 @@ padding-top: 140px;
 padding-left: 95vh;
 color: white;
 text-align: justify;
+
 }
 
 .texthead{
@@ -70,7 +71,7 @@ text-align: justify;
 .titulo{
     color: rgb(0, 0, 151);
     padding-top: 30px;
-    padding-left: 60vh;
+    text-align: center;
 }
 
 
@@ -80,8 +81,8 @@ text-align: justify;
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
-
-
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .card-2{
